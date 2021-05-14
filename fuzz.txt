@@ -3,7 +3,7 @@
 !.htpasswd
 %20../
 %2e%2e//google.com
-%2e%2e;/test
+%2e%2e;test/
 %3f/
 %C0%AE%C0%AE%C0%AF
 %ff/
@@ -59,6 +59,9 @@
 .cfg
 .cfignore
 .checkstyle
+.circleci/
+.circleci/.firebase.secrets.json
+.circleci/.firebase.secrets.json.enc
 .circleci/config.yml
 .classpath
 .cobalt
@@ -708,10 +711,12 @@ _Dockerfile
 _errors
 _eumm/
 _files
+_fragment
 _h5ai/
 _include
 _index.php
 _install
+_internal
 _layouts
 _layouts/
 _layouts/alllibs.htm
@@ -746,6 +751,7 @@ _pages
 _phpmyadmin/
 _pkginfo.txt
 _private
+_proxy
 _Pvt_Extensions
 _site/
 _source
@@ -1306,6 +1312,7 @@ authenticate
 authenticate.php
 authentication
 authentication.php
+authlog.txt
 authorization.config
 authorize.php
 authorized_keys
@@ -1329,6 +1336,12 @@ awstats
 awstats.conf
 awstats.pl
 awstats/
+axis/
+axis//happyaxis.jsp
+axis2-web//HappyAxis.jsp
+axis2/
+axis2//axis2-web/HappyAxis.jsp
+axis2/axis2-web/HappyAxis.jsp
 azure-pipelines.yml
 azureadmin/
 b2badmin/
@@ -1492,6 +1505,7 @@ Brocfile.js
 browser/
 brunch-config.coffee
 brunch-config.js
+bsmdashboards/messagebroker/amfsecure
 buck.sql
 buffer.conf
 bugs
@@ -1641,6 +1655,7 @@ classic.json
 classic.jsonp
 cleanup.log
 cli/
+client.ovpn
 client_secret.json
 client_secrets.json
 ClientAccessPolicy.xml
@@ -2018,6 +2033,7 @@ demo
 demo.php
 demo/
 demo/ejb/index.html
+demo/ojspext/events/globals.jsa
 demo/sql/index.jsp
 demos/
 denglu
@@ -2060,6 +2076,8 @@ dist
 dist/
 dkms.conf
 dlldata.c
+dms/AggreSpy
+dms/DMSDump
 dns.alpha.kubernetes.io
 doc
 doc/
@@ -2093,9 +2111,13 @@ download/users.csv
 downloader/
 downloader/cache.cfg
 downloader/connect.cfg
+downloadFile.php
 downloads/
 downloads/dom.php
 dra.php
+dswsbobje/
+dswsbobje//happyaxis.jsp
+dswsbobje/happyaxis.jsp
 duckrails/mocks/
 dummy
 dummy.php
@@ -2272,6 +2294,10 @@ fastlane/readme.md
 fastlane/report.xml
 fastlane/screenshots
 fastlane/test_output
+fcgi-bin/echo
+fcgi-bin/echo.exe
+fcgi-bin/echo2
+fcgi-bin/echo2.exe
 FCKeditor
 fckeditor
 FCKeditor/
@@ -2408,6 +2434,7 @@ global.asax.temp
 global.asax.tmp
 globals
 globals.inc
+globals.jsa
 globes_admin/
 glpi/
 google-services.json
@@ -2445,6 +2472,7 @@ Gulpfile.js
 gwt-unitCache/
 h2console
 hac/
+happyaxis.jsp
 haproxy/
 health
 health.json
@@ -2660,17 +2688,27 @@ Jakefile
 javascripts/bundles
 javax.faces.resource.../
 javax.faces.resource.../WEB-INF/web.xml.jsf
+jboss-net/
+jboss-net//happyaxis.jsp
+jboss-net/happyaxis.jsp
 jboss/server/all/deploy/project.ext
 jboss/server/all/log/
 jboss/server/default/deploy/project.ext
 jboss/server/default/log/
 jboss/server/minimal/deploy/project.ext
 jbossws/services
+jbpm-console/app/tasks.jsf
 jdbc
+jdkstatus
 jenkins/
 Jenkinsfile
 jira/
+jk-status
 jk/
+jkmanager
+jkmanager-auth
+jkstatus
+jkstatus-auth
 jmx-console
 jmx-console/
 jmx-console/HtmlAdaptor?action=inspectMBean&name=jboss.system:type=ServerInfo
@@ -2719,6 +2757,8 @@ kibana/
 killer.php
 known_tokens.csv
 kpanel/
+krb.log
+krblog.txt
 kube-apiserver.log
 kube-controller-manager.log
 kube-proxy.log
@@ -2930,6 +2970,7 @@ magmi/conf/magmi.ini
 mail
 mail.log
 mail/
+Mail/smtp/Admin/smadv.asp
 mailer/.env
 mailman/
 mailman/listinfo
@@ -3229,6 +3270,8 @@ opentsdb/
 openvpnadmin/
 operador/
 operator/
+oprocmgr-service
+oprocmgr-status
 ops/
 oracle
 order.log
@@ -3876,6 +3919,7 @@ server.cfg
 server.js
 server.key
 server.log
+server.ovpn
 Server.php
 server.pid
 server.xml
@@ -3899,11 +3943,13 @@ services/
 services/config/databases.yml
 servlet/
 servlet/%C0%AE%C0%AE%C0%AF
+servlet/DMSDump
 servlet/Oracle.xml.xsql.XSQLServlet/soapdocs/webapps/soap/WEB-INF/config/soapConfig.xml
 servlet/oracle.xml.xsql.XSQLServlet/soapdocs/webapps/soap/WEB-INF/config/soapConfig.xml
 servlet/Oracle.xml.xsql.XSQLServlet/xsql/lib/XSQLConfig.xml
 servlet/oracle.xml.xsql.XSQLServlet/xsql/lib/XSQLConfig.xml
 servlet/SnoopServlet
+servlet/Spy
 session/
 sessions
 sessions/
@@ -3981,6 +4027,8 @@ smblogin/
 snoop.jsp
 snort/
 soap/
+soap/servlet/soaprouter
+soap/servlet/Spy
 soapdocs/
 soapdocs/webapps/soap/WEB-INF/config/soapConfig.xml
 soapserver/
@@ -4278,6 +4326,7 @@ threaddump
 Thumbs.db
 thumbs.db
 thumbs/
+tikiwiki
 timeline.xctimeline
 tiny_mce/
 tiny_mce/plugins/filemanager/examples.html
@@ -4333,6 +4382,7 @@ tmp/whmcs.php
 tmp/xd.php
 TODO
 tomcat-docs/appdev/sample/web/hello.jsp
+tomcat/axis/
 tools
 tools.php
 tools/
@@ -4343,6 +4393,8 @@ Trace.axd
 Trace.axd::$DATA
 trace.json
 transmission/web/
+tresearch/
+tresearch/happyaxis.jsp
 tripwire/
 trivia/
 tsconfig.json
@@ -4598,6 +4650,7 @@ webadmin/index.php
 webadmin/login.html
 webadmin/login.php
 webalizer
+webapp/wm/runtime.jsp
 webdav.password
 webdav/
 webdav/index.html
@@ -4701,6 +4754,8 @@ WSO.php
 wso.php
 wso2.5.1.php
 wso2.php
+wssgs/
+wssgs/happyaxis.jsp
 wstats
 wuwu11.php
 wvdial.conf
